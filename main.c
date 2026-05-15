@@ -185,6 +185,7 @@ void mc_defining(){
 }
 
 int main(){
+    mc_defining();
     while (true) {
         mcaction[mc]();
     }
